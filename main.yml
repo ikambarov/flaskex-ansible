@@ -1,0 +1,7 @@
+tasks:
+- Name: Clone Repo
+  git:
+    repo: 'https://github.com/anfederico/Flaskex'
+    dest: /app
+
+
