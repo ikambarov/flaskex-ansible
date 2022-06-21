@@ -4,4 +4,7 @@ tasks:
     repo: 'https://github.com/anfederico/Flaskex'
     dest: /app
 
+- Name: Install pip Requirements
+  pip:
+    requirements: /app/requirements.txt
 
